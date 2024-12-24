@@ -10,7 +10,7 @@
 ## Установка
 
 1. Скачайте и распакуйте расширение:
-   - [Нажмите сюда](https://github.com/azabroflovski/diagonal-orientation-extension/raw/master/extension.zip) чтобы скачать архив `extension.zip`
+   - [Нажмите сюда](https://github.com/azabroflovski/redmine-zoomer-extension/raw/master/extension.zip) чтобы скачать архив `extension.zip`
    - Распакуйте скачанный архив в удобную для вас папку.
 
 ![img.png](img.png)
