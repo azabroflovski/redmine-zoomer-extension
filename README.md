@@ -26,5 +26,16 @@
 
 Расширение установлено и готово к работе.
 
+## Demo 
+
+Home page 
+![demo1.png](demo1.png)
+
+Tasks page 
+![demo2.png](demo2.png)
+
+Agile board 
+![demo3.png](demo3.png)
+
 ## LICENSE
 MIT 
