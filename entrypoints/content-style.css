@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+
+:root {
+  --border-radius-default: 6px;
+  --primary-color: #0a4b89;
+  --border-color: #e0e0e0;
+}
+
+body {
+  background-color: red !important;
+  font-family: 'Noto Sans' !important;
+  font-size: 14px !important;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Noto Sans' !important;
+}
+
+
+#header {
+  background-color: var(--primary-color) !important;
+}
+
+#wrapper #top-menu {
+  background-color: #111;
+  padding: 8px 0px;
+}
+
+#wrapper #top-menu a:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+#wrapper #project-jump .drdn-trigger {
+  height: 26px;
+  border-radius: var(--border-radius-default);
+}
+
+#wrapper #project-jump .drdn-items a {
+  transition: 100ms ease;
+  border: none;
+}
+
+#wrapper #project-jump .drdn-items > a:hover {
+  background-color: var(--primary-color);
+}
+
+#wrapper #top-menu a {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: var(--border-radius-default);
+  transition: 200ms ease;
+}
+
+#wrapper .drdn-content .autocomplete:focus {
+  border-color: var(--primary-color);
+}
+
+
+#quick-search form label {
+  display: none;
+}
+
+
+input[type="text"], input[type="password"] {
+  border-radius: var(--border-radius-default) !important;
+  padding: 12px 10px !important;
+}
+
+#wrapper #sidebar {
+  border: none;
+}
+
+#sidebar h3 {
+  font-size: 20px !important;
+  margin-bottom: 22px;
+}
+
+a.query {
+  display: inline-flex;
+  padding: 8px 14px !important;
+  text-decoration: none !important;
+  border-radius: 6px !important;
+  line-height: 1 !important;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 200ms ease;
+  color: #000 !important;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+a.query:hover {
+  color: var(--primary-color) !important;
+}
+
+a.query.selected {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color);
+  margin-left: 0px !important;
+  color: #fff !important;
+}
+
+#wrapper .icon-clear-query.icon-only {
+  width: auto;
+  color: #fff;
+  font-size: 12px;
+  background-image: none;
+  margin-left: 0;
+}
+
+#wrapper #main-menu li {
+  margin-right: 8px;
+}
+
+#wrapper #main a, #wrapper #main a:visited {
+  color: var(--primary-color);
+}
+
+#wrapper .members.box a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#wrapper #main-menu li a:not(.selected):hover {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+
+#wrapper #main-menu li a {
+  transition: 200ms ease;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+
+#wrapper #content {
+}
+
+#wrapper #login-form {
+  background-color: #fff;
+  border-radius: var(--border-radius-default);
+  border: none;
+  padding: 30px 30px;
+}
+
+#wrapper #quick-search {
+  padding: 4px 0px;
+}
+
+#wrapper #quick-search form {
+  margin-right: 16px;
+}
+
+#wrapper .box {
+  padding: 4px 26px;
+  background-color: #fff;
+  border-radius: var(--border-radius-default);
+  border: 1px solid #eee;
+}
+
+#wrapper .box legend {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#wrapper #content > h2 {
+  color: #222;
+}
+
+#wrapper .mypage-box {
+  padding: 20px;
+  border-radius: var(--border-radius-default);
+}
+
+#wrapper .contextual {
+  display: flex;
+  gap: 16px;
+}
+
+#wrapper .contextual a, #wrapper .buttons a {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+  padding-block: 4px;
+  padding-right: 4px;
+  box-sizing: content-box !important;
+  text-decoration: none;
+  border-radius: var(--border-radius-default);
+}
+
+.ui-widget-overlay {
+  background-color: rgba(0,0,0, 0.5) !important;
+  backdrop-filter: blur(10px);
+  opacity: 100% !important;
+}
+
+#wrapper .nodata {
+}
+
+#wrapper #query_form_content {
+  font-size: 14px;
+}
+
+#wrapper table.list {
+  font-size: 14px;
+}
+
+#wrapper table.list a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#wrapper table.list tr {
+  transition: 100ms ease;
+}
+
+#wrapper .context-menu-selection {
+  background-color: var(--primary-color) !important;
+}
+
+#wrapper table.list:not(.issues-board) tr:hover {
+  background-color: #e0ebff;
+}
+
+#wrapper .projects .root {
+  border-radius: 8px !important;
+  border-color: var(--border-color) !important;
+}
+
+#wrapper #projects-index {
+  column-gap: 14px;
+}
+
+#wrapper #activity h3 {
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+#wrapper input[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  height: auto;
+  padding: 10px 18px;
+  font-weight: bold;
+  font-family: 'Noto Sans';
+  transition: 200ms ease;
+  border-radius: 6px;
+}
+
+#wrapper input[type="submit"]:hover {
+  filter: brightness(1.1);
+}
+
+#wrapper input + label {
+  font-weight: bold;
+}
+
+#wrapper #activity .project {
+  font-weight: bold;
+}
+
+#wrapper .block-receiver .mypage-box table {
+  border: none;
+}
+
+#wrapper .block-receiver .autoscroll {
+  margin-bottom: 0px;
+}
+
+#wrapper #issuesreportedbyme-settings p {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#wrapper #issuesreportedbyme-settings p {
+  font-weight: bold;
+}
+
+#wrapper .issue-card {
+  border-radius: 8px;
+  margin: 0px;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  transition: transform 250ms ease, box-shadow 300ms ease;
+  background-color: #fffcd0;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0,0,0, 0.12);
+}
+
+#wrapper .issue-card.ui-sortable-helper {
+  box-shadow: 0px 6px 21px rgba(0,0,0, 0.21);
+  transform: scale(1.12) rotate(3deg);
+}
+
+#wrapper table th {
+  background-color: #f7f7f7;
+  padding: 8px;
+}
+
+#wrapper .issues-board {
+  border-radius: 8px;
+}
+
+#wrapper .issues-board td {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+#wrapper .issue-card .issue-id {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 1px;
+}
+
+#wrapper .issue-card .info {
+  border-top: 1px solid rgba(0, 0, 0, 0.07)
+}
+
+#wrapper .issue-card .name a {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+#wrapper .issue-card .user {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#wrapper #context-menu li a {
+  font-weight: bold;
+}
